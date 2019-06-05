@@ -1,8 +1,9 @@
+// swift-tools-version:5.0
 import PackageDescription
 
 let package = Package(
 	name: "CLibTIFF",
 	targets: [ // ]
-        Target(name: "CLibTIFF")
+        .target(name: "CLibTIFF", path: "Sources")
 	]
 )
